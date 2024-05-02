@@ -1,0 +1,32 @@
+* {
+    font-family: "Stylish", sans-serif;
+}
+ body
+ {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+textarea {
+    width:100%;
+}
+input[type=submit] {
+    margin-top:10px;
+}

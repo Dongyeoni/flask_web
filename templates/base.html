@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>물어보시라~ | 게시판</title>
+
+    <link rel="stylesheet" type="text/css" href = "{{ url_for('static', filename="bootstrap.min.css")}}" >
+    <link rel="stylesheet" type="text/css" href = "{{ url_for('static', filename="my_style.css")}}" >
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+</head>
+<body>
+<!-- 네비게이션바 -->
+{% include "navbar.html" %}
+
+<!-- 각자 페이지 시작 -->
+{% block content %}
+{% endblock %}
+<!--각자 페이지 line 끝 -->
+</body>
+</html>
